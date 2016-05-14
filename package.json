@@ -1,0 +1,39 @@
+{
+  "name": "exec-back",
+  "version": "0.0.0",
+  "description": "execute commands and receive the output via callback",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "arg-find": "~1.0.0",
+    "concat-stream": "~1.5.1",
+    "cross-spawn-async": "~2.2.2",
+    "strip-eof": "~1.0.0",
+    "once": "~1.3.3"
+  },
+  "devDependencies": {
+    "tape": "~4.5.1"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelrhodes/exec-back"
+  },
+  "keywords": [
+    "exec",
+    "spawn",
+    "cross-platform",
+    "callback",
+    "safe"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/exec-back/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/exec-back"
+}
